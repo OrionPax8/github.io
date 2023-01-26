@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>COMP 125 Loop Assignment</title>
+    <link rel="stylesheet" type="text/css" href="Assignment1.css">
+</head>
+<body>
+    <div id="main">
+        <h3>Multiplication Tables</h3>
+        <hr>
+        <br>
+        <div id="myTable">
+
+        </div>
+        <br><hr><br>
+        <form onsubmit="createAUserTable();return false">
+            <fieldset>
+                <legend>Create Your Own Table</legend>
+                <label for="userrows">Number of Rows</label>
+                <input type="text" id="userrows" name="userrows"><br><br>
+                <label for="usercols">Number of Columns</label>
+                <input type="text" id="usercols" name="usercols"><br><br>
+                <input type="submit" value="Create A New Table">
+            </fieldset>
+        </form> 
+    <br><hr>
+    <h5>&copy;&nbsp;&nbsp;Copyright Jason - COMP 125 Winter 2023</h5>
+    <a href="../index.html">Return To Assignment List</a>
+    <hr>
+    </div>
+
+    <script src="Assignment1.js" defer></script>
+</body>
